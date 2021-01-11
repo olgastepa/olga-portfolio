@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="311px" height="166px" viewBox="0 0 311 166" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-949.000000, -454.000000)" fill="#080808">
+            <g id="Group" transform="translate(931.000000, 414.000000)">
+                <text id="{-}" font-family="Baskerville" font-size="180" font-weight="normal" letter-spacing="10.0799999">
+                    <tspan x="0" y="162">{   }</tspan>
+                </text>
+                <text id="OS" font-family="Cormorant-BoldItalic, Cormorant" font-size="150" font-style="italic" font-weight="bold" letter-spacing="8.39999962">
+                    <tspan x="83" y="171">OS</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

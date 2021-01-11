@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="assets/logo/logo-2.png" alt="" class="logo">
+        <ul class="menu-list">
+            <a href="index.html"><li class="menu-list-item">Главная</li></a>
+            <a href="about.html"><li class="menu-list-item">Обо мне</li></a>
+            <a href="projects.html"><li class="menu-list-item">Проекты</li></a>
+            <a href="contact.html"><li class="menu-list-item">Контакты</li></a>
+        </ul>
+    </header>
+
+    <div class="intro-container">
+    <h1 class="ml6">
+        <span class="text-wrapper">
+          <span class="letters title-one">Ольга Степанова</span>
+        </span>
+      </h1>
+        <div class="intro-index-two">
+            <h2 class="title-two">Цифровой дизайнер</h2>
+            <img src="assets/index/intro-image.png" alt="" class="intro-img">
+            <h2 class="title-two">Веб дизайнер</h2>
+        </div>
+    </div>
+
+    <div class="quote">
+        <h3 class="quote-text"><em>«Дизайнер понимает, что достиг совершенства не тогда, когда ему нечего добавить, а тогда, когда нечего убрать».</em> - Антуан де Сент-Экзюпери (Antoine de Saint-Exupéry)</h3>
+    </div>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    
+    <footer>
+        <div class="footer-section">
+            <img src="assets/logo/logo-2.png" alt="" class="footer-logo">
+            <p class="body-text">Дизайн начинается здесь!</p>
+            <div class="footer-section-icons">
+                <a href="tel:79213722392" class="footer-link-img"><img src="assets/contact/whatsapp.svg" alt="" class="footer-img"></a>
+                <a href="mailto:osdesign.new@gmail.com"class="footer-link-img"><img src="assets/contact/email.svg" alt="" class="footer-img"></a>
+                <a href="https://www.instagram.com/olgastepanova_design/" target="_blank" class="footer-link-img"><img src="assets/contact/instagram.svg" alt="" class="footer-img"></a>
+            </div>
+
+            <div class="footer-section-icons second">
+                <a href="about.html" class="footer-link-text">Обо мне</a>
+                <a href="projects.html" class="footer-link-text">Проекты</a>
+                <a href="contact.html" class="footer-link-text">Контакты</a>
+            </div>
+        </div>
+        <div class="copyrights">
+            &copy; 2021 — частный дизайнер Ольга Степанова
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<script> 
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml6 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml6 .letter',
+    translateY: ["1.1em", 0],
+    translateZ: 0,
+    duration: 750,
+    delay: (el, i) => 50 * i
+  }).add({
+    targets: '.ml6',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
