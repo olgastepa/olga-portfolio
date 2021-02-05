@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="21px" viewBox="0 0 24 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-887.000000, -175.000000)" fill-rule="nonzero" fill="#F5F5F5">
+            <g id="telegram" transform="translate(887.000000, 174.000000)">
+                <path d="M0.415,11.196 L6.284,14.121 C6.511,14.233 6.779,14.225 6.996,14.098 L12.22,11.061 L9.058,13.863 C8.897,14.006 8.805,14.21 8.805,14.425 L8.805,21.25 C8.805,21.97 9.724,22.273 10.155,21.701 L12.692,18.328 L18.966,21.901 C19.406,22.154 19.97,21.9 20.072,21.397 L23.985,1.897 C24.102,1.311 23.519,0.833 22.977,1.051 L0.477,9.826 C-0.127,10.062 -0.166,10.907 0.415,11.196 L0.415,11.196 Z M22.245,2.947 L18.806,20.084 L12.861,16.698 C12.537,16.513 12.12,16.595 11.89,16.899 L10.305,19.006 L10.305,14.762 L18.856,7.186 C19.533,6.587 18.755,5.522 17.982,5.976 L6.592,12.598 L2.6,10.609 L22.245,2.947 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

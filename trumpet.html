@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +11,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>The Trumpet</title>
 </head>
 <body>
-    <header>
-        <img src="assets/logo/logo-2.png" alt="" class="logo">
-        <ul class="menu-list">
-            <a href="index.html"><li class="menu-list-item">Главная</li></a>
-            <a href="about.html"><li class="menu-list-item">Обо мне</li></a>
-            <a href="projects.html"><li class="menu-list-item">Проекты</li></a>
-            <a href="contact.html"><li class="menu-list-item">Контакты</li></a>
+    <div class="nav-section">
+        <img src="assets/logo/logo-2.png" alt="" class="header-logo">
+    </div>
+    
+    
+    <div class="outer-menu">
+    <input class="checkbox-toggle" type="checkbox" />
+    <div class="hamburger">
+    <div></div>
+    </div>
+    <div class="menu">
+    <div>
+      <div>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="обо-мне.html">Обо мне</a></li>
+          <li><a href="проекты.html" class="active">Проеткы</a></li>
+          <li><a href="контакты.html">Контакты</a></li>
         </ul>
-    </header>
+      </div>
+    </div>
+    </div>
+    </div>
 
     <div class="project-intro-section project-trumpet">
         <h1 class="title-one">Веб дизайн для The Trumpet</h1>
@@ -120,18 +134,21 @@
 
     <footer>
         <div class="footer-section">
-            <img src="assets/logo/logo-2.png" alt="" class="footer-logo">
-            <p class="body-text">Дизайн начинается здесь!</p>
-            <div class="footer-section-icons">
+            <a href="index.html"><img src="assets/logo/logo-2.png" alt="" class="footer-logo"></a>
+            <p class="body-text footer-h1">Дизайн начинается здесь!</p>
+            <div class="footer-info-section-container">
+
+            <div class="footer-section-info">
+              <a href="обо-мне.html" class="footer-link-text">Обо мне</a>
+              <a href="проекты.html" class="footer-link-text">Проекты</a>
+              <a href="контакты.html" class="footer-link-text">Контакты</a>
+          </div>
+              <div class="footer-section-info flex-row">
                 <a href="tel:79213722392" class="footer-link-img"><img src="assets/contact/whatsapp.svg" alt="" class="footer-img"></a>
+                <a href="https://telegram.me/olgastepanova20" target="_blank" class="footer-link-img"><img src="assets/contact/telegram.svg" alt="" class="footer-img"></a>
                 <a href="mailto:osdesign.new@gmail.com"class="footer-link-img"><img src="assets/contact/email.svg" alt="" class="footer-img"></a>
                 <a href="https://www.instagram.com/olgastepanova_design/" target="_blank" class="footer-link-img"><img src="assets/contact/instagram.svg" alt="" class="footer-img"></a>
             </div>
-
-            <div class="footer-section-icons second">
-                <a href="about.html" class="footer-link-text">Обо мне</a>
-                <a href="projects.html" class="footer-link-text">Проекты</a>
-                <a href="contact.html" class="footer-link-text">Контакты</a>
             </div>
         </div>
         <div class="copyrights">
