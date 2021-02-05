@@ -441,13 +441,13 @@ footer .body-text{
 }
 @media only screen and (max-width: 600px) {
     .about-section {
-        width: 75%;
-        margin-right: 40px;
+        width: 90%;
+        margin: auto;
     }
 
     .project-container {
-        width: 90%;
-        margin-right: 0;
+        width: 100%;
+        margin: auto;
     }
     .project-box {
         width: 100vw;
@@ -456,7 +456,7 @@ footer .body-text{
         margin: auto;
     }
     .project-number,   .title-four{
-        margin-left: 130px
+        margin-left: 100px
     }
 
 }
@@ -554,7 +554,7 @@ footer .body-text{
     width: 80%;
 }
 .project-text {
-    width: 80%;
+    width: 90%;
     margin-top: 5px;
 }
 .project-presentation-img {
@@ -567,6 +567,9 @@ footer .body-text{
 }
 
 @media only screen and (max-width: 935px) { 
+    body {
+        overflow-x: hidden;
+    }
     .footer-info-section-container {
         flex-direction: column!important;
         margin-top: 30px;
@@ -766,6 +769,9 @@ nav {
   transition: all 0.3s ease;
 }
 @media screen and (max-width:768px) {
+    .contact-title {
+        font-size: 4em;
+    }
     .header-logo {
         width: 100px;
     }
