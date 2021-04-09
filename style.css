@@ -518,6 +518,9 @@ footer .body-text{
 .project-luceplan {
     background-image: url(assets/projects/luceplan/LucePlan-intro.png); 
 }
+.project-bio-metal {
+    background-image: url(assets/projects/bio-metal/bio-metal-bg.png); 
+}
 .project-definition-container {
     margin: auto;
     width: 80%;
