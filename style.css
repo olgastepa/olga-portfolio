@@ -522,6 +522,9 @@ footer .body-text{
 .project-bio-metal {
     background-image: url(assets/projects/bio-metal/bio-metal-bg.png); 
 }
+.irma-project  {
+    background-image: url(assets/projects/irma/irma-bg.png); 
+}
 .project-definition-container {
     margin: auto;
     width: 80%;
@@ -1189,4 +1192,22 @@ nav {
 
     /*DROPDOWN MENU ENDS*/
   
+
+    /* DROPDOWN MENU LANGUAGE*/
+    .language-section {
+        display: block;
+        color: var(--white);
+        width: 100px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-family: 'Open Sans';
+        text-align: right;
+        transition: .3s ease-in;
+    }
+    .language-section:hover {
+        color: var(--yellow);
+    }
+
+    /*DROPDOWN MENU LANGUAGE ENDS*/
   
