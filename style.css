@@ -101,6 +101,7 @@ header {
     font-family: 'Cormorant Garamond';
     font-weight: 100;
     font-style: italic;
+    width: 80%;
 }
 .contact-title {
     font-size: 6em;  
@@ -222,7 +223,7 @@ header {
     flex-wrap: wrap;
     margin-top: 100px;
 }
-. .project-title  {
+.project-title  {
     height: auto;
 }
 .project-container a {
@@ -232,7 +233,7 @@ header {
     border-left: 1px solid white;
     border-right: 1px solid white;
     width: 270px;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -240,7 +241,7 @@ header {
 }
 .project-number {
     margin-left: 35px;  
-    margin-bottom: 170px;
+    margin-bottom: 100px;
 }
 .project-box .title-four{
     height: 100px;
@@ -432,7 +433,7 @@ footer .body-text{
         margin-top: 20px;
     }
     .project-text{
-        width: 90vw;
+        width: 80vw;
         margin: auto;
         margin-bottom: 20px;
     }
@@ -527,6 +528,9 @@ footer .body-text{
 .irma-project  {
     background-image: url(assets/projects/irma/irma-bg.png); 
 }
+.morozova-project {
+    background-image: url(assets/projects/morozova/morozova-intro.png);
+}
 .project-definition-container {
     margin: auto;
     width: 80%;
@@ -563,7 +567,7 @@ footer .body-text{
     width: 80%;
 }
 .project-text {
-    width: 90%;
+    width: 80%;
     margin-top: 5px;
 }
 .project-presentation-img {
